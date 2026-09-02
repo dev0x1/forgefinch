@@ -24,11 +24,16 @@ you want that supplemental guidance.
 ### Codex
 
 ```bash
-codex plugin marketplace add https://github.com/dev0x1/forgefinch
+codex plugin marketplace add dev0x1/forgefinch@v0.1.0
 codex plugin add forgefinch-core@forgefinch
 codex plugin add forgefinch-client@forgefinch   # optional client pack
 codex plugin add forgefinch-backend@forgefinch  # optional backend pack
 ```
+
+The `owner/repository@tag` form pins the marketplace to a published release.
+Confirm that `forgefinch` appears in `codex plugin marketplace list` before
+installing plugins; a failed marketplace registration leaves no plugin
+inventory for the subsequent `plugin add` commands.
 
 Start a fresh Codex task after installation or an upgrade so newly installed
 skills are discovered.
