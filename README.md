@@ -51,6 +51,29 @@ Restart Claude Code after installation or an update. If activation is pending,
 run `/reload-plugins`; use `/reload-plugins --force` when Claude warns that it
 will reread the conversation.
 
+### Replace a local development marketplace
+
+Codex and Claude reject a second marketplace source with the same `forgefinch`
+name. If Forgefinch was previously registered from a local checkout, uninstall
+its plugins and remove that marketplace declaration before adding the GitHub
+source:
+
+```bash
+# Codex
+codex plugin remove forgefinch-core@forgefinch
+codex plugin remove forgefinch-client@forgefinch
+codex plugin remove forgefinch-backend@forgefinch
+codex plugin marketplace remove forgefinch
+
+# Claude Code
+claude plugin uninstall forgefinch-core@forgefinch -y
+claude plugin uninstall forgefinch-client@forgefinch -y
+claude plugin uninstall forgefinch-backend@forgefinch -y
+claude plugin marketplace remove forgefinch
+```
+
+Then repeat the GitHub marketplace and plugin installation commands above.
+
 ## Invoke skills
 
 Codex can select installed skills from their descriptions or accept an explicit
