@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "forgefinch-core",
+  "version": "0.1.0",
+  "description": "General software-engineering workflow and schema-v4 workpackage skills.",
+  "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+  "homepage": "https://github.com/dev0x1/forgefinch",
+  "repository": "https://github.com/dev0x1/forgefinch",
+  "license": "Apache-2.0",
+  "keywords": ["software-engineering", "development", "workpackages"]
+}

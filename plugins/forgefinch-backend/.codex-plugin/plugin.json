@@ -1,0 +1,29 @@
+{
+  "name": "forgefinch-backend",
+  "version": "0.1.0",
+  "description": "Backend engineering skills for Rust services, APIs, data, security, and infrastructure.",
+  "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+  "homepage": "https://github.com/dev0x1/forgefinch",
+  "repository": "https://github.com/dev0x1/forgefinch",
+  "license": "Apache-2.0",
+  "keywords": ["codex", "rust", "backend", "api", "infrastructure"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Forgefinch Backend",
+    "shortDescription": "Build reliable Rust services and infrastructure.",
+    "longDescription": "Backend engineering skills for Rust services, API contracts, persistence, security, infrastructure, testing, architecture, and agentic systems.",
+    "developerName": "Forgefinch",
+    "category": "Developer Tools",
+    "capabilities": ["Skills"],
+    "websiteURL": "https://github.com/dev0x1/forgefinch",
+    "defaultPrompt": [
+      "Implement this Rust backend change.",
+      "Review this service boundary and its tests.",
+      "Plan a secure backend integration."
+    ],
+    "brandColor": "#C65D32",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

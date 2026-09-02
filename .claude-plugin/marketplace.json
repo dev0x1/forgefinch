@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "forgefinch",
+  "owner": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+  "description": "Software-engineering workflows with optional client and backend skill packs.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "forgefinch-core",
+      "source": "./plugins/forgefinch-core",
+      "description": "General software-engineering workflow and schema-v4 workpackage skills.",
+      "version": "0.1.0",
+      "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+      "homepage": "https://github.com/dev0x1/forgefinch",
+      "repository": "https://github.com/dev0x1/forgefinch",
+      "license": "Apache-2.0",
+      "keywords": ["software-engineering", "development", "workpackages"],
+      "category": "Developer Tools",
+      "strict": true
+    },
+    {
+      "name": "forgefinch-client",
+      "source": "./plugins/forgefinch-client",
+      "description": "Client engineering skills for Electron, React, Next.js, TypeScript, and testing.",
+      "version": "0.1.0",
+      "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+      "homepage": "https://github.com/dev0x1/forgefinch",
+      "repository": "https://github.com/dev0x1/forgefinch",
+      "license": "Apache-2.0",
+      "keywords": ["electron", "react", "typescript", "desktop"],
+      "category": "Developer Tools",
+      "strict": true
+    },
+    {
+      "name": "forgefinch-backend",
+      "source": "./plugins/forgefinch-backend",
+      "description": "Backend engineering skills for Rust services, APIs, data, security, and infrastructure.",
+      "version": "0.1.0",
+      "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+      "homepage": "https://github.com/dev0x1/forgefinch",
+      "repository": "https://github.com/dev0x1/forgefinch",
+      "license": "Apache-2.0",
+      "keywords": ["rust", "backend", "api", "infrastructure"],
+      "category": "Developer Tools",
+      "strict": true
+    }
+  ]
+}

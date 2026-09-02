@@ -1,0 +1,64 @@
+schema_version: 4
+id: WP-0000
+title: Short title
+status: planned
+owner: codex
+spec_ref: WP-0000-short-title.spec.md
+goal: "The intended outcome is present, verified by focused and complete-goal checks, while preserving named product boundaries."
+scope:
+  in:
+    - Intended behavior.
+  out:
+    - Unrelated product behavior.
+slices:
+  - id: WP-0000-S1
+    kind: implementation
+    title: Implement the focused behavior
+    status: todo
+    summary: Deliver the smallest coherent implementation outcome.
+    ac:
+      - id: WP-0000-S1-AC1
+        status: todo
+        text: The focused behavior is observable and covered by its named check.
+    checks:
+      - cmd: focused-project-check
+        required: true
+        status: todo
+        notes: Pending.
+    questions: []
+    notes: []
+    completion: []
+  - id: WP-0000-S2
+    kind: quality_review
+    title: Review the complete implementation
+    status: todo
+    summary: Perform an independent findings-first quality review.
+    ac:
+      - id: WP-0000-S2-AC1
+        status: todo
+        text: Findings are resolved or reopen their owning implementation slice.
+    checks:
+      - cmd: project-quality-review-command
+        required: true
+        status: todo
+        notes: Replace with the applicable project-profile command.
+    questions: []
+    notes: []
+    completion: []
+  - id: WP-0000-S3
+    kind: verification
+    title: Verify the complete package
+    status: todo
+    summary: Prove the goal, constraints, integrated behavior, and regressions.
+    ac:
+      - id: WP-0000-S3-AC1
+        status: todo
+        text: Complete-goal evidence proves the intended outcome and boundaries.
+    checks:
+      - cmd: complete-project-verification-command
+        required: true
+        status: todo
+        notes: Replace with the applicable project-profile command.
+    questions: []
+    notes: []
+    completion: []

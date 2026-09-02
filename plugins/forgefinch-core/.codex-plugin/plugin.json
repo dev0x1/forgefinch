@@ -1,0 +1,29 @@
+{
+  "name": "forgefinch-core",
+  "version": "0.1.0",
+  "description": "General software-engineering workflow and schema-v4 workpackage skills.",
+  "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+  "homepage": "https://github.com/dev0x1/forgefinch",
+  "repository": "https://github.com/dev0x1/forgefinch",
+  "license": "Apache-2.0",
+  "keywords": ["codex", "software-engineering", "workpackages"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Forgefinch Core",
+    "shortDescription": "Plan, implement, review, and verify software work.",
+    "longDescription": "General software-engineering skills for planning, acceptance criteria, schema-v4 workpackages, implementation slices, quality review, and verification.",
+    "developerName": "Forgefinch",
+    "category": "Developer Tools",
+    "capabilities": ["Skills", "Templates"],
+    "websiteURL": "https://github.com/dev0x1/forgefinch",
+    "defaultPrompt": [
+      "Plan this change as a schema-v4 workpackage.",
+      "Implement the selected workpackage slice.",
+      "Review and verify this software change."
+    ],
+    "brandColor": "#5B5BD6",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

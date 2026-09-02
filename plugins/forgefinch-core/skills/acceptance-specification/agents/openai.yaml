@@ -1,0 +1,6 @@
+interface:
+  display_name: "Acceptance Specification"
+  short_description: "Write testable slice acceptance criteria"
+  default_prompt: "Use $acceptance-specification to define acceptance criteria."
+policy:
+  allow_implicit_invocation: true

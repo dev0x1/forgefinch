@@ -1,0 +1,6 @@
+interface:
+  display_name: "Dev Workflow"
+  short_description: "Coordinate multi-step software development"
+  default_prompt: "Use $agent-workflow to coordinate this development task."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workpackage Planning"
+  short_description: "Plan schema-v4 delivery workpackages"
+  default_prompt: "Use $workpackage-planning to plan this workpackage."
+policy:
+  allow_implicit_invocation: true

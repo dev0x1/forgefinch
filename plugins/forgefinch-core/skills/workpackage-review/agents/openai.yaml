@@ -1,0 +1,6 @@
+interface:
+  display_name: "Workpackage Review"
+  short_description: "Review workpackage findings and evidence"
+  default_prompt: "Use $workpackage-review to review this workpackage."
+policy:
+  allow_implicit_invocation: true

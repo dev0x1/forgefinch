@@ -1,0 +1,29 @@
+{
+  "name": "forgefinch-client",
+  "version": "0.1.0",
+  "description": "Client engineering skills for Electron, React, Next.js, TypeScript, and testing.",
+  "author": { "name": "Forgefinch", "url": "https://github.com/dev0x1" },
+  "homepage": "https://github.com/dev0x1/forgefinch",
+  "repository": "https://github.com/dev0x1/forgefinch",
+  "license": "Apache-2.0",
+  "keywords": ["codex", "electron", "react", "typescript", "desktop"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Forgefinch Client",
+    "shortDescription": "Build secure, accessible web and desktop clients.",
+    "longDescription": "Client engineering skills for Electron, React, Next.js, TypeScript, local execution, accessibility, testing, and API integration.",
+    "developerName": "Forgefinch",
+    "category": "Developer Tools",
+    "capabilities": ["Skills"],
+    "websiteURL": "https://github.com/dev0x1/forgefinch",
+    "defaultPrompt": [
+      "Implement this Electron or React change.",
+      "Review this client boundary and its tests.",
+      "Verify this desktop or web behavior."
+    ],
+    "brandColor": "#0F9D8A",
+    "composerIcon": "./assets/composer-icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png"
+  }
+}

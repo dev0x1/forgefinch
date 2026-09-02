@@ -1,0 +1,6 @@
+interface:
+  display_name: "Development Verification"
+  short_description: "Verify slices and complete workpackages"
+  default_prompt: "Use $verification to verify this workpackage."
+policy:
+  allow_implicit_invocation: true

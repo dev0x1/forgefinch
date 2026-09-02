@@ -1,0 +1,26 @@
+{
+  "name": "forgefinch",
+  "interface": {
+    "displayName": "Forgefinch"
+  },
+  "plugins": [
+    {
+      "name": "forgefinch-core",
+      "source": { "source": "local", "path": "./plugins/forgefinch-core" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "forgefinch-client",
+      "source": { "source": "local", "path": "./plugins/forgefinch-client" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    },
+    {
+      "name": "forgefinch-backend",
+      "source": { "source": "local", "path": "./plugins/forgefinch-backend" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Developer Tools"
+    }
+  ]
+}
