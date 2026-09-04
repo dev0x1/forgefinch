@@ -29,7 +29,13 @@ tests, and the applicable command profile before planning.
 8. Run the repository's workpackage validator.
 
 The complete schema and state invariants are in
-[schema v4](references/schema-v4.md). Reusable files live in `assets/`.
+[schema v5](references/schema-v5.md), which extends
+[schema v4](references/schema-v4.md) with check tiers. Reusable files live in
+`assets/`.
 
-Historical schema-v2/v3 records remain valid and are not upgraded merely for
-consistency. New durable records use schema v4.
+Place checks by tier, never by duration: implementation and quality-review
+slices carry only static and unit checks, and every integration, live, and
+destructive check belongs to the final verification slice.
+
+Historical schema-v2/v3/v4 records remain valid and are not upgraded merely
+for consistency. New durable records use schema v5.

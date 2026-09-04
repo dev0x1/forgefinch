@@ -14,7 +14,10 @@ Definition happens after planning and before implementation.
    and verification surfaces.
 3. Assign every required behavior and decision to an implementation slice.
 4. Refine slice order, acceptance criteria, focused checks, open questions, and
-   non-goals. Do not hide a blocking decision in narrative notes.
+   non-goals. Do not hide a blocking decision in narrative notes. Place checks
+   by tier, never by duration: implementation slices carry only static and
+   unit checks, and every integration, live, and destructive check belongs to
+   the final verification slice.
 5. Confirm the mandatory penultimate quality-review slice uses the applicable
    project profile and the final verification slice covers the complete goal.
 6. Run the repository workpackage validator.
